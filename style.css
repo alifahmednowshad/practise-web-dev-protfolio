@@ -1,1 +1,116 @@
-body {font-size: 3rem;}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* common styles  */
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+.common-btn{
+    background-color: #fd6e0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    color: #fd6e0a;
+    padding: 10px 20px;
+    border: 2px solid #fd6e0a;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.logo{
+    font-size: 32px;
+}
+.logo-r{
+    color: #fd6e0a;
+    font-weight: bold;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero styles  */
+.hero-root{
+  background-color: #fff8f3;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left-p-1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero-parent h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero-left-p-2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.hero-buttons{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.hero-right img{
+  width: 100%;
+}
+
+/* Aaout style */
+.about-parent{
+  text-align: center;
+  background-color: #fff8f3;
+  margin: 80px 0;
+  padding: 80px;
+}
+.about-parent h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about-parent p{
+  margin: 20px 0;
+}
+
+.about-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box p{
+  margin: 3px 0;
+}
+.box h2{
+  font-size: 18px;
+  font-weight: 500;
+}
